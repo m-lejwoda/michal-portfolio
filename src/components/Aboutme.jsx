@@ -28,6 +28,7 @@ const Aboutme = () => {
                 focus on quality.
                 I believe in continuous learning and systematic work, which help me grow both personally and
                 professionally.
+                Currently, I am focusing on developing my skills in DevOps and the Azure cloud platform.
             </div>
         </div>
     )

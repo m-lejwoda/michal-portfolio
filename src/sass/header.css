@@ -36,6 +36,8 @@
 .header__container__titles__title span {
   position: relative;
   font-size: 2rem;
+  display: inline-block;
+  line-height: 1;
   color: white;
   -webkit-text-stroke: 0.3vw transparent;
   text-transform: uppercase;
@@ -79,6 +81,8 @@
 .header__container__titles__secondtitle span {
   position: relative;
   font-size: 2rem;
+  display: inline-block;
+  line-height: 1;
   color: white;
   -webkit-text-stroke: 0.3vw transparent;
   text-transform: uppercase;
