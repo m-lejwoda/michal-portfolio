@@ -14,7 +14,7 @@ const Technologies = props => {
             <div className="technologies__container__elements">
                 <div data-aos="fade-down" className="technologies__container__element">
                     <div className="technologies__container__element__image">
-                        <img alt="html" src="./html-icon.png"/>
+                        <img alt="django" src="./django.png"/>
                     </div>
                     <div className="technologies__container__element__title">Django</div>
                     <div className="technologies__container__element__description">I build robust and scalable backend
@@ -25,7 +25,7 @@ const Technologies = props => {
                 </div>
                 <div data-aos="fade-down" className="technologies__container__element">
                     <div className="technologies__container__element__image">
-                        <img alt="css" src="./css-icon.png"/>
+                        <img alt="css" src="./fastapi.png"/>
                     </div>
                     <div className="technologies__container__element__title">FastAPI</div>
                     <div className="technologies__container__element__description">I create high-performance APIs with
@@ -36,7 +36,7 @@ const Technologies = props => {
                 </div>
                 <div data-aos="fade-down" className="technologies__container__element">
                     <div className="technologies__container__element__image">
-                        <img alt="js" src="./js-icon.png"/>
+                        <img alt="react" src="./react-icon.png"/>
                     </div>
                     <div className="technologies__container__element__title">React</div>
                     <div className="technologies__container__element__description">I develop dynamic and responsive user
@@ -47,7 +47,7 @@ const Technologies = props => {
                 </div>
                 <div data-aos="fade-down" className="technologies__container__element">
                     <div className="technologies__container__element__image">
-                        <img alt="django" src="./django-icon.png"/>
+                        <img alt="Azure" src="./azure.png"/>
                     </div>
                     <div className="technologies__container__element__title">Azure</div>
                     <div className="technologies__container__element__description">I deploy, manage, and scale
@@ -58,7 +58,7 @@ const Technologies = props => {
                 </div>
                 <div data-aos="fade-down" className="technologies__container__element">
                     <div className="technologies__container__element__image">
-                        <img alt="react" src="./react-icon.png"/>
+                        <img alt="react" src="./terraform.png"/>
                     </div>
                     <div className="technologies__container__element__title">Terraform</div>
                     <div className="technologies__container__element__description">I manage cloud infrastructure as code
@@ -132,6 +132,9 @@ const Technologies = props => {
                 </div>
                 <div className="technologies__container__restelement__title">
                     Ansible
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Nginx
                 </div>
             </div>
 
