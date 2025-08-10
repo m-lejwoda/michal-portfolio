@@ -7,103 +7,28 @@ const Header = (props) => {
     return (
         <div className="header__container">
             <div className="header__particles"></div>
-            <Particles
-                style={{position: "absolute"}}
-                height="95%"
-                width="95%"
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 50
-                        },
-                        "size": {
-                            "value": 3
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "repulse"
-                            }
-                        }
-                    }
-                }}/>
-            {/*{window.innerWidth >= 760 &&*/}
-            {/*    <Particles*/}
-            {/*        id="tsparticles"*/}
-            {/*        // particlesLoaded={particlesLoaded}*/}
-            {/*        options={{*/}
-            {/*            // background: {*/}
-            {/*            //     color: {*/}
-            {/*            //         value: "#0d47a1",*/}
-            {/*            //     },*/}
-            {/*            // },*/}
-            {/*            fpsLimit: 120,*/}
-            {/*            interactivity: {*/}
-            {/*                events: {*/}
-            {/*                    onClick: {*/}
-            {/*                        enable: true,*/}
-            {/*                        mode: "push",*/}
-            {/*                    },*/}
-            {/*                    onHover: {*/}
-            {/*                        enable: true,*/}
-            {/*                        mode: "repulse",*/}
-            {/*                    },*/}
-            {/*                    resize: true,*/}
-            {/*                },*/}
-            {/*                modes: {*/}
-            {/*                    push: {*/}
-            {/*                        quantity: 4,*/}
-            {/*                    },*/}
-            {/*                    repulse: {*/}
-            {/*                        distance: 200,*/}
-            {/*                        duration: 0.4,*/}
-            {/*                    },*/}
-            {/*                },*/}
+            {/*<Particles*/}
+            {/*    style={{position: "absolute"}}*/}
+            {/*    height="95%"*/}
+            {/*    width="95%"*/}
+            {/*    params={{*/}
+            {/*        "particles": {*/}
+            {/*            "number": {*/}
+            {/*                "value": 50*/}
             {/*            },*/}
-            {/*            particles: {*/}
-            {/*                color: {*/}
-            {/*                    value: "#ffffff",*/}
-            {/*                },*/}
-            {/*                links: {*/}
-            {/*                    color: "#ffffff",*/}
-            {/*                    distance: 150,*/}
-            {/*                    enable: true,*/}
-            {/*                    opacity: 0.5,*/}
-            {/*                    width: 1,*/}
-            {/*                },*/}
-            {/*                move: {*/}
-            {/*                    direction: "none",*/}
-            {/*                    enable: true,*/}
-            {/*                    outModes: {*/}
-            {/*                        default: "bounce",*/}
-            {/*                    },*/}
-            {/*                    random: false,*/}
-            {/*                    speed: 6,*/}
-            {/*                    straight: false,*/}
-            {/*                },*/}
-            {/*                number: {*/}
-            {/*                    density: {*/}
-            {/*                        enable: true,*/}
-            {/*                        area: 800,*/}
-            {/*                    },*/}
-            {/*                    value: 80,*/}
-            {/*                },*/}
-            {/*                opacity: {*/}
-            {/*                    value: 0.5,*/}
-            {/*                },*/}
-            {/*                shape: {*/}
-            {/*                    type: "circle",*/}
-            {/*                },*/}
-            {/*                size: {*/}
-            {/*                    value: {min: 1, max: 5},*/}
-            {/*                },*/}
-            {/*            },*/}
-            {/*            detectRetina: true,*/}
-            {/*        }}*/}
-            {/*    />*/}
-            {/*}*/}
+            {/*            "size": {*/}
+            {/*                "value": 3*/}
+            {/*            }*/}
+            {/*        },*/}
+            {/*        "interactivity": {*/}
+            {/*            "events": {*/}
+            {/*                "onhover": {*/}
+            {/*                    "enable": true,*/}
+            {/*                    "mode": "repulse"*/}
+            {/*                }*/}
+            {/*            }*/}
+            {/*        }*/}
+            {/*    }}/>*/}
 
             <div className="header__container__box">
 
