@@ -1,4 +1,3 @@
-import React from 'react';
 import '../sass/header.css';
 import Particles from "@tsparticles/react";
 // import Particles from "@tsparticles/react";

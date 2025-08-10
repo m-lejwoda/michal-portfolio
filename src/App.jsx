@@ -56,8 +56,8 @@ function App() {
           </ul>
         </div>
       </nav>
-      <ParticleTest />
-      {/*<section className="header"><Header executeScrollProjects={executeScrollProjects}/></section>*/}
+      {/*<ParticleTest />*/}
+      <section className="header"><Header executeScrollProjects={executeScrollProjects}/></section>
       <section ref={aboutmeRef} className="aboutme"><Aboutme /></section>
       <section ref={technologiesRef} className="technologies"><Technologies /></section>
       <section ref={projectsRef} className="projects"><Projects /></section>
