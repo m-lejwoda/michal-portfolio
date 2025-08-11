@@ -52,7 +52,7 @@ function App() {
             <li><div onClick={executeScrollAboutMe} >About me</div></li>
             <li><div onClick={executeScrollTechnologies}>Technologies</div></li>
             <li><div onClick={executeScrollProjects}>Projects</div></li>
-            <li><div onClick={executeScrollContact}>Contacts</div></li>
+            <li><div onClick={executeScrollContact}>Contact</div></li>
           </ul>
         </div>
       </nav>
