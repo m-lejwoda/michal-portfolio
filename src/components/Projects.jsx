@@ -18,10 +18,10 @@ const Projects = () => {
                     </div>
                     <div className="projects__container__element__buttons">
                         <div className="projects__container__element__buttons__livebutton"
-                             onClick={() => click('https://true-effects.herokuapp.com/')}>Live<FontAwesomeIcon
+                             onClick={() => click('https://true-effects.pl')}>Live<FontAwesomeIcon
                             icon={faArrowUp}/></div>
                         <div className="projects__container__element__buttons__githubbutton"
-                             onClick={() => click('https://github.com/saxatachi/true-effects-deploy')}>Github<img
+                             onClick={() => click('https://github.com/michal-lejwoda/true-effects')}>Github<img
                             alt="github" src="./GitHub-Mark-Light-64px.png"/></div>
                     </div>
                     <div className="projects__container__element__description">
@@ -45,15 +45,15 @@ const Projects = () => {
                 <div className="projects__container__element">
                     <div className="projects__container__element__title">Flashcards</div>
                     <div className="projects__container__element__image">
-                        <div className="projects__container__element__image--img"><img alt="sportywalki"
-                                                                                       src="./sportywalki.png"/></div>
+                        <div className="projects__container__element__image--img"><img alt="flashcards"
+                                                                                       src="./flashcards.png"/></div>
                     </div>
                     <div className="projects__container__element__buttons">
                         <div className="projects__container__element__buttons__livebutton"
-                             onClick={() => click('https://sportywalki.herokuapp.com/')}>Live<FontAwesomeIcon
+                             onClick={() => click('https://www.language-flashcards.pl')}>Live<FontAwesomeIcon
                             icon={faArrowUp}/></div>
                         <div className="projects__container__element__buttons__githubbutton"
-                             onClick={() => click('https://github.com/saxatachi/Blog')}>Github<img alt="github"
+                             onClick={() => click('https://github.com/michal-lejwoda/my_flashcards')}>Github<img alt="github"
                                                                                                    src="./GitHub-Mark-Light-64px.png"/>
                         </div>
                     </div>
@@ -77,15 +77,15 @@ const Projects = () => {
                 <div className="projects__container__element">
                     <div className="projects__container__element__title">Personal Trainer</div>
                     <div className="projects__container__element__image">
-                        <div className="projects__container__element__image--img"><img alt="atrakcje"
-                                                                                       src="./atrakcje1.png"/></div>
+                        <div className="projects__container__element__image--img"><img alt="personal-trainer"
+                                                                                       src="./personal-trainer-michal.png"/></div>
                     </div>
                     <div className="projects__container__element__buttons">
                         <div className="projects__container__element__buttons__livebutton"
-                             onClick={() => click('https://atrakcje.herokuapp.com/')}>Live<FontAwesomeIcon
+                             onClick={() => click('https://www.personal-trainer-michal.pl')}>Live<FontAwesomeIcon
                             icon={faArrowUp}/></div>
                         <div className="projects__container__element__buttons__githubbutton"
-                             onClick={() => click('https://github.com/saxatachi/Atrakcje')}>Github<img alt="github"
+                             onClick={() => click('https://github.com/michal-lejwoda/trainer_page')}>Github<img alt="github"
                                                                                                        src="./GitHub-Mark-Light-64px.png"/>
                         </div>
                     </div>
@@ -111,15 +111,18 @@ const Projects = () => {
                 <div className="projects__container__element">
                     <div className="projects__container__element__title">Reviews Scrapper</div>
                     <div className="projects__container__element__image">
-                        <div className="projects__container__element__image--img"><img alt="atrakcje"
-                                                                                       src="./atrakcje1.png"/></div>
+                        <div className="projects__container__element__image--img"><img alt="reviews-scrapper"
+                                                                                       src="./scrapper-omi.png"/></div>
                     </div>
                     <div className="projects__container__element__buttons">
                         <div className="projects__container__element__buttons__livebutton"
-                             onClick={() => click('https://atrakcje.herokuapp.com/')}>Live<FontAwesomeIcon
-                            icon={faArrowUp}/></div>
+                             // onClick={() => click('https://atrakcje.herokuapp.com/')}
+                        >
+                            Soon
+                        </div>
+                            {/*<FontAwesomeIcon icon={faArrowUp}/></div>*/}
                         <div className="projects__container__element__buttons__githubbutton"
-                             onClick={() => click('https://github.com/saxatachi/Atrakcje')}>Github<img alt="github"
+                             onClick={() => click('https://github.com/michal-lejwoda/web_grades_scrapper')}>Github<img alt="github"
                                                                                                        src="./GitHub-Mark-Light-64px.png"/>
                         </div>
                     </div>
@@ -148,15 +151,17 @@ const Projects = () => {
                 <div className="projects__container__element">
                     <div className="projects__container__element__title">Contour Algorithm</div>
                     <div className="projects__container__element__image">
-                        <div className="projects__container__element__image--img"><img alt="atrakcje"
-                                                                                       src="./atrakcje1.png"/></div>
+                        <div className="projects__container__element__image--img"><img alt="Contour Algorithm"
+                                                                                       src="./contour-algorithm.png"/></div>
                     </div>
                     <div className="projects__container__element__buttons">
                         <div className="projects__container__element__buttons__livebutton"
-                             onClick={() => click('https://atrakcje.herokuapp.com/')}>Live<FontAwesomeIcon
-                            icon={faArrowUp}/></div>
+                             // onClick={() => click('https://atrakcje.herokuapp.com/')}
+                        >This is only Algorithm
+                            {/*<FontAwesomeIcon icon={faArrowUp}/>*/}
+                        </div>
                         <div className="projects__container__element__buttons__githubbutton"
-                             onClick={() => click('https://github.com/saxatachi/Atrakcje')}>Github<img alt="github"
+                             onClick={() => click('https://github.com/michal-lejwoda/contour-generator')}>Github<img alt="github"
                                                                                                        src="./GitHub-Mark-Light-64px.png"/>
                         </div>
                     </div>
