@@ -5,6 +5,7 @@ import '../sass/projects.css'
 const Projects = () => {
     const click = (web) => {
         window.open(web, '_blank', 'noopener,noreferrer');
+
     }
     return (
         <div className="projects__container">
